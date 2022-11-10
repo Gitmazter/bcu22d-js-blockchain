@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Janne Calc</title>
+</head>
+<body>
+    <main class="calculator">
+        <input type="text" id="input_1" value="1">
+        <input type="text" id="input_2" value="1">
+
+    
+        <button onclick="operator_dropdown()" class="dropbtn">Operators &DownArrow;</button>
+        <div id="operators">
+            <div class="opdiv">+</div>
+            <div class="opdiv">-</div>
+            <div class="opdiv">x</div>
+            <div class="opdiv">/</div>
+        </div> 
+        <div id="calculate">Calculate!</div>
+    </main>
+    <footer>
+        <ul id="calc_list">Calculations:</ul>
+    </footer>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
