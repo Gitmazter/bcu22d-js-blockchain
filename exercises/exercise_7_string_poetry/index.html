@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>String poetry // Seed phrase checker</h1>
+    <div id="randomize">
+        <h2>write a number between 1-15 and we will randomize a poem</h2>
+        <input id="length_input"><button type="button" onclick="randomize()" class="print_btn">OK</button>
+    </div>
+    <div id="root">
+        <h2>Or select your own ones below</h2>
+        <h2 id="output"></h2>
+    </div>
+    
+    <button type="button" id="print_btn" class="print_btn" onclick="print()"> print selected words</button>
+    <button type="button" id="reset_btn" onclick="reset()">Reset words</button>
+    <script src="script.js"></script>
+</body>
+</html>
