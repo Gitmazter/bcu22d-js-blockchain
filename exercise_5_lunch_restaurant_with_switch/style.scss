@@ -1,0 +1,31 @@
+@import './normalize';
+
+.hero {
+    margin-top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(madam2.jpg);
+    background-size: 100vw 100vh;
+    display: flex;
+    
+    .overlay {
+        background-color: rgba(0, 0, 255, 0.185);
+        width: 100vw;
+        height: 100vh;
+        background-size: 100vw 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    h1 {
+        color: orange;
+        text-align: center;
+        text-shadow: 1px 1px grey;
+        background-color: rgba(0, 0, 0, 0.685);
+        font-family: monospace;
+        font-size: 8em;
+        padding: 15px;
+        border-radius: 15px;
+    }
+}
